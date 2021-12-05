@@ -1,9 +1,6 @@
 "use strict";
 
-function printAnswer(element, index, array) {
 
-
-}
 
 
 function rotationalCipher(input, rotationFactor) {
@@ -38,7 +35,7 @@ function rotationalCipher(input, rotationFactor) {
         encryptedMessage += String.fromCharCode(asciiCodeArr[i]);
     }
     console.log(encryptedMessage);
-    //asciiCodeArr.forEach(element => console.log(String.fromCharCode))
+    
     
     
 }
